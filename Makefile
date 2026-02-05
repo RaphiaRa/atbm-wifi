@@ -13,7 +13,6 @@ PWD:=$(shell pwd)
 WIFI_INSTALL_DIR := $(PWD)/driver_install
 
 export WIFI_PROJ_DIR=$(PWD)
-export
 -include $(src)/Makefile.build.kernel
 
 export DRIVER_PATH ?= $(PWD)
