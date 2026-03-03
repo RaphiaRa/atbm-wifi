@@ -395,6 +395,7 @@ static const struct usb_device_id atbm_usb_ids[] = {
 	{USB_DEVICE(WIFI_USB_VID, WIFI_USB_PID)},
     {USB_DEVICE(0x1b20, 0x6052)},
 	{USB_DEVICE(WIFI_USB_VID, 0x6052)},
+	{USB_DEVICE(WIFI_USB_VID, 0x6162)},
 	{ /* end: all zeroes */}
 };
 struct atbm_usb_driver_ref {
